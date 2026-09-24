@@ -10,8 +10,8 @@ i32 copy = valueType;
 
 copy = 20;
 
-printf(valueType); // 10
-printf(copy); // 20
+println(valueType); // 10
+println(copy); // 20
 ```
 
 
@@ -24,8 +24,8 @@ Unique Pointers provide exclusive ownership of an object. Moving a unique pointe
 unique string myString = "Hello, World!";
 unique string passed = myString;
 
-printf(myString); // Compile Error, myString is not owner!
-printf(passed); // "Hello, World!"
+println(myString); // Compile Error, myString is not owner!
+println(passed); // "Hello, World!"
 ```
 
 ### Shared Pointers
@@ -34,6 +34,34 @@ Shared Pointers provide shared ownership of an object. Moving a shared pointer t
 shared string myString = "Hello, World!";
 shared string passed = myString;
 
-printf(myString); // "Hello, World!"
-printf(passed); // "Hello, World!"
+println(myString); // "Hello, World!"
+println(passed); // "Hello, World!"
 ```
+
+## Array Types
+Arrays are a way to represent a fixed-length sequence of types. Arrays are Value Types.
+```loom
+i32[5] arr = { 2, 3, 1, 6, 2 };
+println(arr[3]); // 6
+```
+For a dynamically sized sequence, or a reference type equivalent to an array, `Vector<T>` is used.
+
+## Built-In Types
+Loom has various predefined types that are used heavily.
+| Type | Description |
+|---|---|
+| `void` | Represents the absence of a value. |
+| `bool` | Boolean value, either `true` or `false`. |
+| `char` | Single Unicode scalar value. |
+| `string` | Sequence of Unicode characters with UTF-8 encoding. |
+| `iptr` | Signed integer type whose size matches the target platform's pointer size. |
+| `i8` | Signed 8-bit integer. |
+| `i16` | Signed 16-bit integer. |
+| `i32` | Signed 32-bit integer. |
+| `i64` | Signed 64-bit integer. |
+| `u8` | Unsigned 8-bit integer. |
+| `u16` | Unsigned 16-bit integer. |
+| `u32` | Unsigned 32-bit integer. |
+| `u64` | Unsigned 64-bit integer. |
+| `f32` | 32-bit floating-point number. |
+| `f64` | 64-bit floating-point number. |

@@ -6,3 +6,4 @@
 
 # Language
 - [Types](./types.md)
+- [Comments](./comments.md)

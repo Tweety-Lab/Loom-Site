@@ -25,7 +25,7 @@ unique string myString = "Hello, World!";
 unique string passed = myString;
 
 printf(myString); // Compile Error, myString is not owner!
-printf(passed); // "Hello, World!";
+printf(passed); // "Hello, World!"
 ```
 
 ### Shared Pointers
@@ -34,6 +34,6 @@ Shared Pointers provide shared ownership of an object. Moving a shared pointer t
 shared string myString = "Hello, World!";
 shared string passed = myString;
 
-printf(myString); // "Hello, World!";
-printf(passed); // "Hello, World!";
+printf(myString); // "Hello, World!"
+printf(passed); // "Hello, World!"
 ```

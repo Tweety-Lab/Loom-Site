@@ -1,5 +1,5 @@
 # Summary
-This document is the official specification for the Loom programming language. This document outlines the features, behavior, and syntax of the latest version as implemented by the [Loom Compiler](https://github.com/Tweety-Lab/Loom).
+This site is the official documentation for the Loom programming language. This document outlines the features, behavior, and syntax of the latest version as implemented by the [Loom Compiler](https://github.com/Tweety-Lab/Loom).
 
 ## Philosophy
 The design of Loom is built around several core pillars.

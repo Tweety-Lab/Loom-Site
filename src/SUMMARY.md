@@ -5,5 +5,7 @@
 - [Intro](./intro.md)
 
 # Language
-- [Types](./types.md)
 - [Comments](./comments.md)
+- [Modules](./modules.md)
+- [Functions](./functions.md)
+- [Types](./types.md)

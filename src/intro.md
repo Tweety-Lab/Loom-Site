@@ -16,8 +16,8 @@ These pillars are propagated from Loom's central purpose: to bridge the gap betw
 There are many fantastic languages out there, and it's important to know why Loom was created when the pre-existing options seem to offer similar solutions.
 
 ### Why Not C++?
-C++ is an incredibly powerful and mature language that has been an industry standard for decades. It's longevity and incredibly large ecosystem are some of it's biggest strengths. However, many of its challenges stem from its long history and commitment to remaining backwards compatible.
+C++ is an incredibly powerful and mature language that has been an industry standard for decades. It's longevity and incredibly large ecosystem are some of it's biggest strengths. However, many of its challenges stem from its long history.
 
-C++ was developed for a different era of computing and as such has accumulated decades of features, conventions, and legacy mechanisms that we now have modern solutions for. Older features, such as header-based inclusions and manual memory management can introduce heavy friction into development.
+C++ was developed for a different era of computing and as such has accumulated decades of features, conventions, and legacy mechanisms that we now have modern solutions for. Older features, such as header-based inclusions and manual memory management cause issues many modern languages entirely avoid.
 
-Modern C++ features akin to smart pointers and modules address some of these concerns. However, their adoption is slowed significantly due to C++'s lack of central tool-chain. Often times, the setup required to use these features is more effort than it's worth, leaving the majority of projects still relying on legacy code.
+Modern C++ features akin to smart pointers and modules address some of these concerns. However, their adoption is slowed significantly due to C++'s lack of central tool-chain and often times the setup required to use these features is more effort than it's worth, leaving the majority of projects still relying on legacy code.
